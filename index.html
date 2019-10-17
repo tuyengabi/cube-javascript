@@ -144,32 +144,6 @@
   </section>
   <br>
 
-
-  <script>
-    var cube = document.querySelector('.cube');
-    var scene = document.querySelector('.scene');
-    var radioGroup = document.querySelector('.radio-group');
-    var currentClass = '';
-
-    function changeSide() {
-
-      var checkedRadio = radioGroup.querySelector(':checked');
-      var showClass = 'show-' + checkedRadio.value;
-      if (currentClass) {
-        cube.classList.remove(currentClass);
-        scene.style.perspectiveOrigin = "0% 0%";
-
-      }
-      cube.classList.add(showClass);
-      currentClass = showClass;
-    }
-
-    // set initial side
-
-    changeSide();
-
-    radioGroup.addEventListener('change', changeSide);
-  </script>
   </div>
 
   </div>
@@ -190,12 +164,14 @@
       mostly barebones HTML document.</p>
   </div>
 
-
+  
   <script src="asset/js/jquery-3.3.1.slim.min.js"></script>
   <script src="asset/js/bootstrap.min.js"></script>
-  <script src="asset/js/main.js"></script>
+  
   <script src="asset/js/bootstrap.min.js"></script>
   <script src="asset/js/generation-boomerang.js"></script>
+  <script src="asset/js/main.js"></script>
+  
 </body>
 
 </html>
