@@ -109,7 +109,7 @@
   margin: auto;
 }
 
-label {
+/* label {
   position: auto;
   margin-right: 10px;
   padding: 6px 12px;
@@ -122,7 +122,7 @@ label {
 label:hover {
   background-color: white;
   color: black;
-}
+} */
 
 .footer {
   position: fixed;

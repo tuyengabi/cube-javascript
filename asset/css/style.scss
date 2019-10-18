@@ -29,9 +29,11 @@ h2 {
 }
 
 .timeline {
-  width: 100%;
+  width: 80%;
   position: relative;
   perspective: 5000px;
+  display : block ; 
+  margin: auto ; 
 
   &:before {
     position: absolute;
